@@ -1,4 +1,4 @@
-# bold Maternal Health Data Analysis
+# Maternal Health Data Analysis
 This project analyzes maternal health data based on clinical visits.
 The aim of this project is to analyze and visualize data to gain insights.
 
