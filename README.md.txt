@@ -2,8 +2,8 @@
 This project analyzes maternal health data based on clinical visits.
 The aim of this project is to analyze and visualize data to gain insights.
 
-## Heading Project Structure
-The project structure is describedbelow:
+## Project Structure
+The project structure is described below:
 data/:This folder contains dataset. It was manually collected from a public website.
 notebooks/:This contains .ipynb files.
 
