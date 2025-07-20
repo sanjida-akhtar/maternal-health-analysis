@@ -1,6 +1,6 @@
 # Maternal Health Data Analysis
 This project analyzes maternal health data based on clinical visits.
-The aim of this project is to analyze and visualize data to gain insights.
+The aim of this project is to analyze data to gain insights and predict maternal death category prediction.
 
 ## Project Structure
 The project structure is described below:
@@ -9,6 +9,18 @@ notebooks/:This contains .ipynb files.
 
 ## Project Environment
 The project uses numpy, pandas, matplotlib, seaborn, ipykernel packages.
+
+## Results
+- The distribution of most of the variables are right tailed. 
+- Weak correlation.
+- Class imbalance present.
+- RandomForestClassifier, KNeighborsClassifier and xgboost were used to model data.
+- Accuracy,precision, recall and f1-score of RandomForestClassifier are 0.68, 0.75, 0.76 and 0.75 respectively,for K nearest neighobres      these metrics are 0.71, 0.70, 0.67 and 0.67 respectively and for XGBoost the value of these metrics are 0.73, 0.77, 0.44 and 0.56          respectively. 
+- XGBoost is the best model in terms of accuracy and precision. However, it's recall and f1-score are too poor. 
+- RandomForestClassifier the best model in terms of recall and f1-score.
+- Though RandomForestClassifier model was tuned(poor performance on recall and f1-score), default model performed better than that.
+- Taking account into all metrics, RandomForestClassifier is the best model.
+
 
 # Summary Points
 1. Clone the repository
